@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #007bff; /* Blue navigation bar */
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px; /* Increased padding for better spacing */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+li a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.active {
+    background-color: #4d4e4e; /* Dark gray for active link */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 90%; /* Increase table width for better spacing */
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Add border radius for a softer look */
+    overflow: hidden; /* Hide any overflow content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 12px; /* Increased padding for better spacing */
+    text-align: left;
+}
+
+th {
+    background-color: #007bff; /* Header background color */
+    color: white; /* Header text color */
+}
+
+td {
+    background-color: #f8f9fa; /* Light gray alternate row background */
+}
+
+td:nth-child(even) {
+    background-color: #e9ecef; /* Slightly darker alternate rows */
+}
+
+img {
+    display: block;
+    margin: 0 auto; /* Center images horizontally */
+    max-width: 100%;
+    height: auto;
+}
+
+.icon-button {
+    display: inline-block;
+    color: #1b1c1d; /* Default color of the icon */
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.icon-button:hover {
+    color: #ff058f; /* Color of the icon on hover */
+}
+
+
+.button i {
+    margin-right: 5px;
+}
+/* Form container */
+.form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Form label */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Form input */
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Submit button */
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.submit-button:hover {
+    background-color: #0056b3;
+}
